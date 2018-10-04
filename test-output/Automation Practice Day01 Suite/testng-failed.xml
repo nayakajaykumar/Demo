@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Practice Day01 Suite]">
+  <test thread-count="5" name="Guru99 Ecommerce Test(failed)">
+    <classes>
+      <class name="com.Ecommerce.qa.Test.MobilePageTest">
+        <methods>
+          <include name="lunchChrome"/>
+          <include name="tearDown"/>
+          <include name="verifyMobilePageTitle"/>
+          <include name="verifySortByName"/>
+        </methods>
+      </class> <!-- com.Ecommerce.qa.Test.MobilePageTest -->
+    </classes>
+  </test> <!-- Guru99 Ecommerce Test(failed) -->
+</suite> <!-- Failed suite [Automation Practice Day01 Suite] -->
